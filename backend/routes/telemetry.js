@@ -2,7 +2,6 @@
 const express = require("express");
 const router = express.Router();
 const pool = require("../db");
-require('dotenv').config();
 
 // Endpoint to get telemetry data
 router.get("/", async (req, res) => {
